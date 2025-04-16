@@ -17,10 +17,10 @@ PID_FILE = os.path.join(BASE_DIR, "game.pid")  # Added pid file path, but we'll 
 TOTAL_VILLAGERS = 100
 RESOURCE_TYPES = ["gold", "stone", "wood", "food"]
 RESOURCE_PERCENTAGES = {
-    "gold": 0.00004,  # 0.004%
-    "stone": 0.90,    # 90%
-    "wood": 0.001,    # 0.1%
-    "food": 0.0001,    # 0.01%
+    "gold": 0.1,  # 0.1%
+    "stone": 0.5,    # 5%
+    "wood": 2.0,    # 2%
+    "food": 10.0,    # 10%
 }
 UPDATE_INTERVAL = 10  # Seconds
 MAX_LOG_SIZE = 20 * 1024 * 1024  # 20MB
